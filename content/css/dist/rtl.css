@@ -1,0 +1,236 @@
+/* ==========================================================================
+Right-to-Left support
+========================================================================== */
+html[dir='rtl'] .col,
+html[dir='rtl'] .col-auto,
+html[dir='rtl'] .col-1,
+html[dir='rtl'] .col-2,
+html[dir='rtl'] .col-3,
+html[dir='rtl'] .col-4,
+html[dir='rtl'] .col-5,
+html[dir='rtl'] .col-6,
+html[dir='rtl'] .col-7,
+html[dir='rtl'] .col-8,
+html[dir='rtl'] .col-9,
+html[dir='rtl'] .col-10,
+html[dir='rtl'] .col-11,
+html[dir='rtl'] .col-12,
+html[dir='rtl'] .col-sm-1,
+html[dir='rtl'] .col-sm-2,
+html[dir='rtl'] .col-sm-3,
+html[dir='rtl'] .col-sm-4,
+html[dir='rtl'] .col-sm-5,
+html[dir='rtl'] .col-sm-6,
+html[dir='rtl'] .col-sm-7,
+html[dir='rtl'] .col-sm-8,
+html[dir='rtl'] .col-sm-9,
+html[dir='rtl'] .col-sm-10,
+html[dir='rtl'] .col-sm-11,
+html[dir='rtl'] .col-sm-12,
+html[dir='rtl'] .col-md-1,
+html[dir='rtl'] .col-md-2,
+html[dir='rtl'] .col-md-3,
+html[dir='rtl'] .col-md-4,
+html[dir='rtl'] .col-md-5,
+html[dir='rtl'] .col-md-6,
+html[dir='rtl'] .col-md-7,
+html[dir='rtl'] .col-md-8,
+html[dir='rtl'] .col-md-9,
+html[dir='rtl'] .col-md-10,
+html[dir='rtl'] .col-md-11,
+html[dir='rtl'] .col-md-12,
+html[dir='rtl'] .col-lg-1,
+html[dir='rtl'] .col-lg-2,
+html[dir='rtl'] .col-lg-3,
+html[dir='rtl'] .col-lg-4,
+html[dir='rtl'] .col-lg-5,
+html[dir='rtl'] .col-lg-6,
+html[dir='rtl'] .col-lg-7,
+html[dir='rtl'] .col-lg-8,
+html[dir='rtl'] .col-lg-9,
+html[dir='rtl'] .col-lg-10,
+html[dir='rtl'] .col-lg-11,
+html[dir='rtl'] .col-lg-12,
+html[dir='rtl'] .col-xl-1,
+html[dir='rtl'] .col-xl-2,
+html[dir='rtl'] .col-xl-3,
+html[dir='rtl'] .col-xl-4,
+html[dir='rtl'] .col-xl-5,
+html[dir='rtl'] .col-xl-6,
+html[dir='rtl'] .col-xl-7,
+html[dir='rtl'] .col-xl-8,
+html[dir='rtl'] .col-xl-9,
+html[dir='rtl'] .col-xl-10,
+html[dir='rtl'] .col-xl-11,
+html[dir='rtl'] .col-xl-12 {
+  float: right !important;
+}
+@media screen and (max-width: 600px) {
+  html[dir='rtl'] .col,
+  html[dir='rtl'] .col-auto,
+  html[dir='rtl'] .col-1,
+  html[dir='rtl'] .col-2,
+  html[dir='rtl'] .col-3,
+  html[dir='rtl'] .col-4,
+  html[dir='rtl'] .col-5,
+  html[dir='rtl'] .col-6,
+  html[dir='rtl'] .col-7,
+  html[dir='rtl'] .col-8,
+  html[dir='rtl'] .col-9,
+  html[dir='rtl'] .col-10,
+  html[dir='rtl'] .col-11,
+  html[dir='rtl'] .col-12,
+  html[dir='rtl'] .col-sm-1,
+  html[dir='rtl'] .col-sm-2,
+  html[dir='rtl'] .col-sm-3,
+  html[dir='rtl'] .col-sm-4,
+  html[dir='rtl'] .col-sm-5,
+  html[dir='rtl'] .col-sm-6,
+  html[dir='rtl'] .col-sm-7,
+  html[dir='rtl'] .col-sm-8,
+  html[dir='rtl'] .col-sm-9,
+  html[dir='rtl'] .col-sm-10,
+  html[dir='rtl'] .col-sm-11,
+  html[dir='rtl'] .col-sm-12,
+  html[dir='rtl'] .col-md-1,
+  html[dir='rtl'] .col-md-2,
+  html[dir='rtl'] .col-md-3,
+  html[dir='rtl'] .col-md-4,
+  html[dir='rtl'] .col-md-5,
+  html[dir='rtl'] .col-md-6,
+  html[dir='rtl'] .col-md-7,
+  html[dir='rtl'] .col-md-8,
+  html[dir='rtl'] .col-md-9,
+  html[dir='rtl'] .col-md-10,
+  html[dir='rtl'] .col-md-11,
+  html[dir='rtl'] .col-md-12,
+  html[dir='rtl'] .col-lg-1,
+  html[dir='rtl'] .col-lg-2,
+  html[dir='rtl'] .col-lg-3,
+  html[dir='rtl'] .col-lg-4,
+  html[dir='rtl'] .col-lg-5,
+  html[dir='rtl'] .col-lg-6,
+  html[dir='rtl'] .col-lg-7,
+  html[dir='rtl'] .col-lg-8,
+  html[dir='rtl'] .col-lg-9,
+  html[dir='rtl'] .col-lg-10,
+  html[dir='rtl'] .col-lg-11,
+  html[dir='rtl'] .col-lg-12,
+  html[dir='rtl'] .col-xl-1,
+  html[dir='rtl'] .col-xl-2,
+  html[dir='rtl'] .col-xl-3,
+  html[dir='rtl'] .col-xl-4,
+  html[dir='rtl'] .col-xl-5,
+  html[dir='rtl'] .col-xl-6,
+  html[dir='rtl'] .col-xl-7,
+  html[dir='rtl'] .col-xl-8,
+  html[dir='rtl'] .col-xl-9,
+  html[dir='rtl'] .col-xl-10,
+  html[dir='rtl'] .col-xl-11,
+  html[dir='rtl'] .col-xl-12 {
+    float: none !important;
+  }
+}
+html[dir='rtl'] body {
+  text-align: right;
+}
+html[dir='rtl'] .navbar-nav > li {
+  float: right;
+}
+html[dir='rtl'] .dl-horizontal dt {
+  float: right;
+}
+html[dir='rtl'] th {
+  text-align: right;
+}
+html[dir='rtl'] .dropdown-menu {
+  text-align: right;
+}
+html[dir='rtl'] .modal-header .close {
+  margin-left: 0rem;
+}
+html[dir='rtl'] .modal-footer {
+  text-align: left;
+}
+html[dir='rtl'] .jh-create-entity {
+  float: left !important;
+}
+html[dir='rtl'] .form-check-input {
+  margin-left: 0rem;
+  margin-right: -1.25rem;
+}
+html[dir='rtl'] .form-check-label {
+  padding-left: 0rem;
+  padding-right: 1.25rem;
+}
+html[dir='rtl'] .input-group-prepend {
+  border-left: 0;
+  border-right: 1px solid rgba(0, 0, 0, 0.15);
+}
+html[dir='rtl'] .form-control + .input-group-append {
+  border-right: 0;
+  border-left: 1px solid rgba(0, 0, 0, 0.15);
+}
+html[dir='rtl'] .modal-footer > :not(:first-child) {
+  margin-left: 0rem;
+  margin-right: 0.25rem;
+}
+html[dir='rtl'] .btn-group > .btn:first-child {
+  margin-right: 0;
+}
+html[dir='rtl'] .page-item:first-child .page-link {
+  margin-right: 0;
+  margin-left: -1px;
+}
+html[dir='rtl'] .smart-body .ss-services__logo {
+  float: right !important;
+}
+
+html[dir='rtl'] .smart-body .ss-services__body {
+  margin-right: 55px !important;
+  margin-left: 20px !important;
+}
+
+html[dir='rtl'] .smart-body .ss-services__title,
+html[dir='rtl'] .smart-body .ss-services__description,
+html[dir='rtl'] .smart-body .row,
+html[dir='rtl'] .smart-body .table-block__value {
+  text-align: right !important;
+}
+
+html[dir='rtl'] .smart-body .page-header_icon > i {
+  left: auto;
+  right: 26px;
+}
+
+html[dir='rtl'] .smart-body .ss-header__number {
+  float: right !important;
+}
+
+html[dir='rtl'] .smart-body .ss-header__body {
+  margin-left: 0px !important;
+  margin-right: 50px !important;
+}
+
+html[dir='rtl'] .smart-body .page-header h1 {
+  margin-right: 90px !important;
+}
+
+html[dir='rtl'] .smart-body .smart-step_ready:before {
+  right: auto !important;
+  left: 20px !important;
+}
+
+html[dir='rtl'] .smart-body .list-check > li {
+  padding: 8px 36px 8px 0;
+}
+
+html[dir='rtl'] .smart-body .list-check > li:before {
+  right: 0 !important;
+  left: auto !important;
+}
+
+html[dir='rtl'] .smart-body .form-control-select:before {
+  right: auto;
+  left: 0;
+}

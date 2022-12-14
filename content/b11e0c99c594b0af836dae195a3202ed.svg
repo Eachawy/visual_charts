@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="126px" height="96px" viewBox="0 0 126 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-vehicle</title>
+    <g id="1-Designs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="VLS-Vehicle-Registration-08.00" transform="translate(-596.000000, -749.000000)">
+            <g id="Body" transform="translate(135.000000, 261.000000)">
+                <g id="Active-Expanded" transform="translate(64.000000, 368.000000)">
+                    <g id="1-copy-12" transform="translate(65.000000, 120.000000)">
+                        <g id="icon-vehicle" transform="translate(332.000000, 0.000000)">
+                            <rect id="bounds" x="0" y="0" width="96" height="96"></rect>
+                            <g id="Car" opacity="0.100000001" transform="translate(60.000000, 23.000000)" stroke="#171C8F" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+                                <line x1="64" y1="15.9375" x2="55.616" y2="19.125" id="Path"></line>
+                                <line x1="8.416" y1="19.125" x2="0" y2="15.9375" id="Path"></line>
+                                <line x1="52" y1="31.875" x2="44" y2="31.875" id="Path"></line>
+                                <line x1="20" y1="31.875" x2="12" y2="31.875" id="Path"></line>
+                                <path d="M55.6128,19.125 L52.928,6.33675 C52.1504,2.645625 48.8832,0 45.0944,0 L19.2384,0 C15.5232,0 12.2944,2.55 11.4496,6.1550625 L8.4064,19.125" id="Path"></path>
+                                <path d="M4,51 L11.2,51 C13.8496,51 16,48.858 16,46.21875 L16,43.03125 L48,43.03125 L48,46.21875 C48,48.858 50.1504,51 52.8,51 L60,51 C62.208,51 64,49.215 64,47.015625 L64,28.6875 C64,23.4058125 59.7024,19.125 54.4,19.125 L9.6,19.125 C4.2976,19.125 0,23.4058125 0,28.6875 L0,47.015625 C0,49.215 1.792,51 4,51 Z" id="Path"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
